@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:5000", // your backend server
+  baseURL: "https://apsi-server-backend.onrender.com", // your backend server
 });
